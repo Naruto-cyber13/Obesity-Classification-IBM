@@ -51,6 +51,18 @@ Target variable: `NObeyesdad` (Obesity Level)
 - Accuracy (OvO): ~YY%
 - Visual plots of feature importances and class distributions
 
+---
+
+## 📂 Files Included
+
+| File | Description |
+|------|-------------|
+| [`Multi-class-Classification-V2.ipynb`](Multi-class-Classification-V2n.ipynb) | Complete Jupyter Notebook with all preprocessing, modeling, and evaluation steps |
+| [`Obesity_level_prediction_dataset.csv`](Obesity_level_prediction_dataset.csv) | Dataset containing demographic, behavioral, and physical features used for classification |
+| [`requirements.txt`](requirements.txt) | Dependencies needed to run the notebook |
+
+---
+
 ## 🧰 Installation
 
 Clone this repo and install dependencies using:

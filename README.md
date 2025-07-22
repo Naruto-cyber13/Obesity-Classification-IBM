@@ -1,5 +1,5 @@
 # Obesity-Classification-IBM
-
+Supervised Classification Model to predict obesity levels based on various lifestyle and health-related features
 # Obesity Level Classification using Logistic Regression
 
 This project implements a supervised classification model to predict obesity levels based on various lifestyle and health-related features. It applies **Logistic Regression** using both **One-vs-All (OvA)** and **One-vs-One (OvO)** strategies.
@@ -68,6 +68,16 @@ Target variable: `NObeyesdad` (Obesity Level)
 Clone this repo and install dependencies using:
 
 ```bash
+git clone https://github.com/Naruto-cyber13/Obesity-Classification-IBM.git
+cd Obesity-Classification-IBM
 pip install -r requirements.txt
 ```
+---
+### 3. Run the model
+```
+
+jupyter notebook Multi-class-Classification-V2.ipynb
+```
+---
+
 

@@ -8,3 +8,54 @@ This project implements a supervised classification model to predict obesity lev
 
 ![Made with IBM ML Course](https://img.shields.io/badge/Made%20with-IBM%20ML%20Course-blue?style=flat&logo=coursera)
 
+## 📊 Dataset
+
+The dataset includes features such as:
+- Age
+- Height and Weight
+- Physical activity
+- Food habits
+- Transportation methods
+- ...and more
+
+Target variable: `NObeyesdad` (Obesity Level)
+
+## 🧪 Technologies Used
+
+- Python 3.x
+- Jupyter Notebook
+- Scikit-learn (LogisticRegression, OneVsOneClassifier, metrics)
+- Pandas and NumPy
+- Seaborn and Matplotlib
+
+## ⚙️ Steps Involved
+
+1. **Data Preprocessing**
+   - Standardization of numerical features
+   - One-hot encoding for categorical variables
+   - Target label encoding
+
+2. **Modeling**
+   - Train/Test split with stratification
+   - Logistic Regression with:
+     - One-vs-All (OvA)
+     - One-vs-One (OvO)
+
+3. **Evaluation**
+   - Accuracy score
+   - Feature importance visualization for both OvA and OvO models
+
+## 📈 Sample Output
+
+- Accuracy (OvA): ~XX%
+- Accuracy (OvO): ~YY%
+- Visual plots of feature importances and class distributions
+
+## 🧰 Installation
+
+Clone this repo and install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
